@@ -13,11 +13,11 @@ The architecture of the neural network is of vital importance. The network topol
 The neural network is implemented in the R programming language using the “neuralnet” package. 
 ### Implimentation
 The data is loaded from the csv file and normalised. The data is split into 60% training and 40% testing data. The neural network is create with 20 input values and output one value, which is the predicted class attribute. It the best network topology is achieve through test and trial method. The performance of the network is measure by measuring the root mean square error. The network is tried for different topologies and the best one is selected and is shown below. 
-[Neural Network](NN.png)
+![Neural Network](NN.png)
 
 ## Results
 The different topologies of the network is tested that vary in number of hidden layer and number of neuron in them. The following table shows the network with different topologies and their respective root mean square errors. 
-[Topology](results.png)
+![Topology](results.png)
 
 The best accuracy of the network is achieved with two hidden layers with 8 and 4 neurons respectively. The predicted values by model is plot by scatter plot. The straight line is the ideal line whereas the RMSE is the distance of predicted values from this line. 
-[Plot](NN_result.png)
+![Plot](NN_result.png)
